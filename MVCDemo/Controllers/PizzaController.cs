@@ -44,8 +44,20 @@ namespace MVCDemo.Controllers
             return View(p);
         }
 
+        public IActionResult update()
+        {
+            return View();
+        }
 
-        public IActionResult Delete(int id)
+        [HttpPost]
+        public IActionResult update(int id, string name, int size, decimal price, bool isglutenfree)
+        {
+            Pizza p = new Pizza { Id = id, Name = name, Size = (PizzaSize)size, Price = price, IsGlutenFree = isglutenfree };
+            PizzaServices.Update(p);
+            return RedirectToAction("List");
+        }
+    
+    public IActionResult Delete(int id)
         {
             Pizza p = PizzaServices.Get(id);
             if (p != null)

@@ -1,4 +1,5 @@
-﻿@*@model MVCDemo.Models.Pizza
+﻿
+@*@model MVCDemo.Models.Pizza
 
 @{
     ViewData["Title"] = "Index";
@@ -45,8 +46,8 @@
 <div>
     @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
     <a asp-action="Index">Back to List</a>
-</div>
-*@
+</div>*@
+
 No.of Pizzas available = @Model.Count
 <div class="table-responsive">
     <p>Details</p>
@@ -61,3 +62,4 @@ No.of Pizzas available = @Model.Count
 
 
 </div>
+
