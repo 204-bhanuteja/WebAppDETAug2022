@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MVCDemo.Filter;
 using MVCDemo.Models;
 using System.Diagnostics;
 
@@ -21,6 +22,7 @@ namespace MVCDemo.Controllers
                return View();
         }
 
+        [MyLog]
         public IActionResult Index()
         {
             return View();
