@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API Demo", "API Demo\API De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApiClient", "ConsoleApiClient\ConsoleApiClient.csproj", "{3BF0E08B-8C20-4B13-858B-3946EA9FD608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApi1", "ToDoApi1\ToDoApi1.csproj", "{353FB46D-9D74-473B-AE21-55E00179B7B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApi1", "ToDoApi1\ToDoApi1.csproj", "{353FB46D-9D74-473B-AE21-55E00179B7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{A43C9A98-60B6-4890-8607-8AECD5C37171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTests", "BankTests\BankTests.csproj", "{45E26180-2CE2-47C3-AB87-9041D4FD5BA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{353FB46D-9D74-473B-AE21-55E00179B7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{353FB46D-9D74-473B-AE21-55E00179B7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{353FB46D-9D74-473B-AE21-55E00179B7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43C9A98-60B6-4890-8607-8AECD5C37171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43C9A98-60B6-4890-8607-8AECD5C37171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43C9A98-60B6-4890-8607-8AECD5C37171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43C9A98-60B6-4890-8607-8AECD5C37171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E26180-2CE2-47C3-AB87-9041D4FD5BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E26180-2CE2-47C3-AB87-9041D4FD5BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E26180-2CE2-47C3-AB87-9041D4FD5BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E26180-2CE2-47C3-AB87-9041D4FD5BA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
